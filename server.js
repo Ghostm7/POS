@@ -24,7 +24,7 @@ app.use(morgan("dev"))
 //routes
 app.use('/api/items', require('./routes/itemRoutes'))
 //port
-const PORT = process.env.PORT || 8080
+const PORT = process.env.PORT || 8000
 
 //listen
 app.listen (PORT, () => {
