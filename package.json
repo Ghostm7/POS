@@ -7,7 +7,7 @@
     "start": "node server.js",
     "server": "nodemon server.js",
     "customer": "npm start --prefix customer",
-    "dev": "concurrently \"npm run server\" \"npm run customer\"",
+    "dev": "concurrently \"npm run server\" \"npm run customer\" ",
     "seed": "node seeder.js"
   },
   "author": "mohamed",

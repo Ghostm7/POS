@@ -27,10 +27,10 @@ const items = [
         "https://www.indianveggiedelight.com/wp-content/uploads/2020/04/veg-biryani-instant-pot-featured.jpg",
     },
     {
-      name: "Chicken Hakka",
-      price: 7,
-      category: "noodles",
-      image: "https://cravecookclick.com/wp-content/uploads/2012/07/IMG_4400.jpg",
+     name: "Chicken Hakka",
+    price: 7,
+    category: "noodles",
+    image: "https://cravecookclick.com/wp-content/uploads/2012/07/IMG_4400.jpg",
     },
     {
       name: "Eggy",
