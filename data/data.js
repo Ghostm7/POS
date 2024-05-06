@@ -28,7 +28,7 @@ const items = [
     },
    
     {
-      name: "Eggy",
+      name: "Egg Noodles",
       price: 5,
       category: "noodles",
       image:
