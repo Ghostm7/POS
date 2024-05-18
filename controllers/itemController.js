@@ -13,15 +13,13 @@ const itemModel = require('../models/itemModel')
 //add item
 const addItemController = async (req,res) => {
     try {
-        const newItem = new itemModel(req.body)
-        await newItem.save()
-        res.status(201).send("Item Created Successfully!")
-
-    }catch (error) {
-        res.status(400).send("error", error);
-        console.log(error)
+        const newItem = new itemModel(req.body);
+        await newItem.save();
+        res.status(201).send("Item Created Successfully!");
+    } catch (error) {
+        console.log(error);
+        res.status(500).send("Error occurred while creating the item.");
     }
-
 };
 
 //edit item
